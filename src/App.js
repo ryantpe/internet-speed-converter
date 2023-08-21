@@ -31,7 +31,7 @@ function App() {
               </span>
               <div className='text-right flex-1'>
                 <div className='convert-title'>Show</div>
-                <input type='text' className='input-number text-right' value={inputValue} disable />
+                <input type='text' className='input-number text-right' value={inputValue/8} disable />
               </div>
             </div>
         </div>
